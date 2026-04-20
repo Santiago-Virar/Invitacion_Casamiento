@@ -1,0 +1,153 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 430px;
+  background: white;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* AUDIO */
+
+audio {
+  width: 100%;
+  margin: 0;
+    padding: 0;
+}
+
+/* IMÁGENES */
+
+.seccion-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.seccion-img img {
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* SECCIONES */
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+  font-weight: normal;
+  color: #c3626a;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* FRASE */
+
+.frase {
+  background: #faf7f2;
+}
+
+/* FECHA */
+
+.fecha {
+  background: white;
+}
+
+/* CONTADOR */
+
+.contador {
+  background: #faf7f2;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.timer div {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  min-width: 80px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.timer span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #c3626a;
+}
+
+/* EVENTO */
+
+.evento {
+  background: white;
+}
+
+/* DRESS CODE */
+
+.dresscode {
+  background: #faf7f2;
+}
+
+/* BOTONES */
+
+.ubicacion a,
+.confirmacion a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 28px;
+  background: #c3626a;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.ubicacion a:hover,
+.confirmacion a:hover {
+  background: #a0525c;
+}
+
+/* FOOTER */
+
+.footer {
+  background: white;
+  padding-bottom: 60px;
+}
