@@ -95,7 +95,7 @@ p {
 .timer {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   flex-wrap: wrap;
   margin-top: 20px;
 }
