@@ -146,9 +146,27 @@ p {
   background: #a0525c;
 }
 
-/* FOOTER */
+/* FOOTER AUTOR */
 
-.footer {
-  background: white;
-  padding-bottom: 60px;
+.footer-autor {
+    padding: 30px 20px 50px;
+    text-align: center;
+    background: #efefef;
+}
+
+.footer-autor p {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.footer-autor a {
+    color: #d46a7a;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+.footer-autor a:hover {
+    transform: scale(1.15);
+    color: #b84e60;
 }
